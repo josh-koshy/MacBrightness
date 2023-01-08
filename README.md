@@ -5,4 +5,4 @@ MacOS Brightness Control
 
 Command-line display brightness control for macOS.
 
-This codebase can set the brightness level of all internal and certain external displays on newer Macsfrom a script or API Call.
+This codebase can set the brightness level of all internal and certain external displays on newer Macs from a script or API Call.
