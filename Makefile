@@ -12,11 +12,6 @@ override LDFLAGS += -framework IOKit \
 	-framework CoreDisplay \
 	-F /System/Library/PrivateFrameworks \
 	-framework DisplayServices \
-	-Wl,-U,_CoreDisplay_Display_SetUserBrightness \
-	-Wl,-U,_CoreDisplay_Display_GetUserBrightness \
-	-Wl,-U,_DisplayServicesCanChangeBrightness \
-	-Wl,-U,_DisplayServicesBrightnessChanged \
-	-Wl,-U,_DisplayServicesGetBrightness \
 	-Wl,-U,_DisplayServicesSetBrightness \
 
 all: build
